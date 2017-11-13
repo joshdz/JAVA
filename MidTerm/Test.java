@@ -10,6 +10,6 @@ public class Test{
         
         Dictionary x = Dictionary.get();
         x.addWord("hola");
-       
+       System.out.println(x.at(0));
 }
 }
