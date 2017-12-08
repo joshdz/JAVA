@@ -21,7 +21,7 @@ public static void main(String[] args){
         BufferedOutputStream bos = new BufferedOutputStream(cliente.getOutputStream());
         OutputStreamWriter osw = new OutputStreamWriter(bos);
 
-        osw.write("SOY UN CLIENTE"+((char)13));
+        osw.write("Se ha conectado  el cliente"+((char)13));
         osw.flush();
 
         int c;
